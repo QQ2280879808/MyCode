@@ -1,7 +1,16 @@
 ★{a=2;b=3}☆
-  //调用网页代码;
+  //1.调用网页代码;
   import inet.http
 	import console
 	var html=inet.http.get("https://github.com/QQ2280879808/MyCode/blob/main/index")
 	tab=eval(string.match(html,"★(.*)☆"))
 	console.dump(tab)
+
+
+
+//2.36进制转换;
+import console;
+	for(i=1;9999;1){
+		console.log(string.upper(tostring(i,36)));//将i转换为36进制;
+		console.log(tonumber(tostring(i,36),36));//将36进制转为10进制;	
+	}
