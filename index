@@ -1,5 +1,5 @@
 ★{a=2;b=3}☆
-  //1.调用网页代码;
+//1.调用网页代码;
   import inet.http
 	import console
 	var html=inet.http.get("https://github.com/QQ2280879808/MyCode/blob/main/index")
