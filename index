@@ -14,3 +14,4 @@ import console;
 		console.log(string.upper(tostring(i,36)));//将i转换为36进制;
 		console.log(tonumber(tostring(i,36),36));//将36进制转为10进制;	
 	}
+//7777777777777777
