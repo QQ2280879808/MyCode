@@ -15,3 +15,4 @@ import console;
 		console.log(tonumber(tostring(i,36),36));//将36进制转为10进制;	
 	}
 //7777777777777777
+//https://app.diagrams.net/#HQQ2280879808%2Fvip%2Fmaster%2F%E6%9C%AA%E5%91%BD%E5%90%8D%E7%BB%98%E5%9B%BE.drawio
